@@ -158,7 +158,9 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "build": "npm run lint",
+    "start": "serve --listen ${PORT:-8080}"
   },
   "author": "",
   "license": "ISC",
