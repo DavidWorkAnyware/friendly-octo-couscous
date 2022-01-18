@@ -159,7 +159,6 @@
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "build": "npm run lint",
     "start": "serve --listen ${PORT:-8080}"
   },
   "author": "",
